@@ -1,7 +1,7 @@
 const Topbar = () => {
   return (
     <div className="w-full flex items-center justify-between mt-[18px]">
-      <div className="text-[20px] ml-[32px] font-bold text-black z-1  ">
+      <div className="text-[20px] ml-[32px] font-bold text-black z-1  relative z-10">
         <h1 className="text-red">9:54</h1>{" "}
       </div>
       <div className="mr-[25px]">
@@ -45,7 +45,7 @@ const Topbar = () => {
         </svg>
       </div>
       <svg
-        className="absolute z-0 top-0 opacity-60"
+        className="absolute z-0 top-0 "
         xmlns="http://www.w3.org/2000/svg"
         width="200"
         height="174"
